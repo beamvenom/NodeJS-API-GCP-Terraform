@@ -1,0 +1,15 @@
+node_modules/
+dist/
+build/
+.env
+*.log
+.dockerignore
+.docker/
+docker-compose.yml
+src/tests/
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+.terraform.tfstate.lock.info
+README.md
