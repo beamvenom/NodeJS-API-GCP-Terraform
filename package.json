@@ -7,7 +7,7 @@
     "start": "nodemon src/app.ts --exec ts-node",
     "build": "tsc",
     "serve": "node dist/app.js",
-    "test": "jest --runInBand --detectOpenHandles --forceExit"
+    "test": "jest --forceExit"
   },
   "keywords": [],
   "author": "",

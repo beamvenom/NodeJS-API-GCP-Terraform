@@ -50,7 +50,7 @@ This project implements a taxi service API with a bidding system. Clients can su
    ```powershell
    git clone <repository-url>
    npm install
-   $env:DB_PASSWORD="your-mongo-db-password"; $env:"SERVER_NAME"="your-mongo-db-server-name"; npm start
+   $env:DB_PASSWORD="your-mongo-db-password"; $env:SERVER_NAME="your-mongo-db-server-name"; npm start
 
 2. Access the API at http://localhost:3000.
 
@@ -86,7 +86,7 @@ $env:DB_PASSWORD="your-mongo-db-password"; $env:"SERVER_NAME"="your-mongo-db-ser
 2. 
    ```powershell
    gcloud auth login
-   gcloud config set project [YOUR_PROJECT_ID]
+   gcloud config set project YOUR_PROJECT_ID
    terraform init
    terraform apply
    ```
